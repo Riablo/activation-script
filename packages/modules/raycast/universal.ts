@@ -17,7 +17,7 @@ export function unblockRequest() {
   return Done({
     url: $request.url.replace(
       'https://backend.raycast.com',
-      'http://127.0.0.1:3000',
+      'http://127.0.0.1:10030',
     ),
     headers: $request.headers,
     body: $request.body,
